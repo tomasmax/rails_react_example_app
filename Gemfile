@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem "responders", '~> 2.3.0'
 
+gem 'react-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
