@@ -5,7 +5,7 @@ var Body = React.createClass({
 
 
     componentDidMount() {
-        $.getJSON('/api/v1/items.json', (response) => { this.setState({ items: response }) });
+        $.getJSON('https://api.themoviedb.org/3/movie/popular?api_key=0324eb4b8130330ff1662244a7f60777&language=en-US', (response) => { this.setState({ items: response }) });
     },
 
 

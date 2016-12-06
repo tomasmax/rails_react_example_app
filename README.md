@@ -1,23 +1,17 @@
 # README
 
-First app using Rails + React
+A web app using Rails + React
 
-Things you may want to cover:
+To run it locally go to the project folder and type in your terminal:
 
-* Ruby version
+´$ bundle´
 
-* System dependencies
+after that type:
 
-* Configuration
+´$ rake db:migrate´
 
-* Database creation
+and finally to run a local dev server:
 
-* Database initialization
+´$ rails s´
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+go to http://localhost:3000/
